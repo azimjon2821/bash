@@ -1,0 +1,17 @@
+adasfsfaffasfasdfafsfCC = gcc
+CFLAGS = -Wall -Wextra -Werror
+TARGET = s21_cat
+SRC = s21_cat.c
+HEADERS = s21_cat.h
+$(TARGET): $(SRC) $(HEADERS)
+	$(CC) $(CFLAGS) -o $(TARGET) $(SRC)
+clean:
+	rm -f $(TARGET)
+.PHONY: clean
+ndfm,bnsd,bnsd
+
+
+312132131
+2
+
+123165156156
